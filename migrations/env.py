@@ -36,6 +36,7 @@ config.set_main_option(
     str(settings.SQLALCHEMY_DATABASE_URI),
 )
 
+
 def run_migrations_offline() -> None:
     """Run migrations in 'offline' mode.
 
