@@ -1,0 +1,9 @@
+.ruff_cache/
+.venv/
+.env
+.gitignore
+.pre-commit-config.yaml
+__pycache__/
+LICENSE/
+.git/
+README.md
