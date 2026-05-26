@@ -4,8 +4,8 @@ set -e
 
 echo "Running migrations..."
 
-uv run alembic upgrade head
+alembic upgrade head
 
 echo "Success. Running fastapi..."
 
-uv run fastapi run --port 80
+fastapi run --port 80
